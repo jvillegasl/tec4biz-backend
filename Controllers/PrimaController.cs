@@ -1,12 +1,10 @@
 using System.Data;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Models;
 
 namespace backend.Controllers;
 
-[EnableCors()]
 [ApiController]
 [Route("[controller]")]
 public class PrimaController : ControllerBase
